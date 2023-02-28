@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "firstpoetry"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.7.0"
+pillow = "^9.4.0"
+requests = "^2.28.2"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+scikit-learn = "^1.2.1"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
